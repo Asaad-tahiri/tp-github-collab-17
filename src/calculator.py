@@ -8,4 +8,7 @@ def divide(a, b):
 """ si elle detecte une erreur."""
  if b == 0:
   raise ValueError("Division par zero est impossible")
-return a / b
+ return a / b
+
+def power(base, exp):
+    return base ** exp
