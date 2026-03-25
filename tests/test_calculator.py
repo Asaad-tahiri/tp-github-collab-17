@@ -13,7 +13,7 @@ def test_divide():
 # Cas limite
 def test_divide_by_zero():
  with pytest.raises(ValueError, match="Cannot divide by zero"):
-divide(5, 0)
+  divide(5, 0)
 
 from src.calculator import power
 
